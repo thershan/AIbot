@@ -1,0 +1,33 @@
+.conversation-list {
+  width: 20%;
+  background-color: #4B0082; /* Adjust color as needed */
+  color: white;
+  padding: 20px;
+  box-shadow: 2px 0px 5px rgba(0,0,0,0.1);
+}
+
+.conversation-list h2 {
+  margin-top: 0;
+}
+
+.conversation {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.conversation img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.conversation div {
+  flex-grow: 1;
+}
+
+.conversation strong {
+  display: block;
+}

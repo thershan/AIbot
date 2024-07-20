@@ -1,0 +1,114 @@
+/* App.css */
+.container {
+  display: flex;
+  height: 100vh;
+  background-color: #f1f0ff;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.header {
+  background-color: #4b0082;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.main-content {
+  display: flex;
+  flex: 1;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #f1f0ff;
+  border-right: 1px solid #ddd;
+  padding: 1rem;
+}
+
+.chat-area {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.messages {
+  flex: 1;
+  overflow-y: auto;
+  padding-bottom: 1rem;
+}
+
+.input-area {
+  display: flex;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.input-area input {
+  flex: 1;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-right: 0.5rem;
+}
+
+.input-area button {
+  background-color: #4b0082;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.chat-message {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.chat-message img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+
+.chat-message.you {
+  flex-direction: row-reverse;
+}
+
+.chat-message .message {
+  background-color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  max-width: 70%;
+}
+
+.chat-message.you .message {
+  background-color: #e0e0e0;
+}
+
+.feedback-area {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.feedback-area textarea {
+  resize: none;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+}
+
+.feedback-area button {
+  background-color: #4b0082;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
